@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой сайт</title>
+    <title>Discord Logo Centered</title>
     <style>
         @keyframes backgroundFade {
             0% {
@@ -20,12 +20,20 @@
         body {
             animation: backgroundFade 5s infinite;
             transition: background-color 2s ease;
-            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        img {
+            width: 150px;
+            height: auto;
         }
     </style>
 </head>
 <body>
-    <h1>s</h1>
-    <p>s.</p>
+    <img src="discord.png" alt="Discord Logo">
 </body>
 </html>
